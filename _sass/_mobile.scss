@@ -1,0 +1,30 @@
+
+/* Adjustments for mobile devices */
+@media screen and (max-width: 1024px) {
+    .content {
+        flex-direction: column;
+    }
+    .image-content img {
+        width: 80%
+    }
+    .image-content-right {
+        display: none;
+    }
+    .text-content {
+        padding: 10px;
+    }
+    .slideshow-container {
+        width: 90%;
+    }
+}
+
+/* Further adjustments for smaller devices */
+@media screen and (max-width: 480px) {
+    #title {
+        font-size: 2rem;
+    }
+    #tagline {
+        font-size: 1rem;
+    }
+}
+

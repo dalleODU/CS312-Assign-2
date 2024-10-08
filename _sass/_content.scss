@@ -1,0 +1,133 @@
+
+/* Main Content Container */
+.main-custom {
+    background-color: #FFFFFF;
+}
+
+/* General section styling */
+.content-section {
+    padding-top: 20px; /* top padding for spacing between content-sections */
+}
+
+.content {
+    display: flex; /* Flexbox layout to arrange content items in a row */
+    gap: 10px; /* Set 10px of spacing between content items */
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* No x-axis shift, 2px down on the y-axis, 4px of blur, color: black, 10% opacity */
+}
+
+/* Image content styling */
+.image-content {
+    display: flex;
+    flex: 0 0 25%;
+    justify-content: center; /* Center the image horizontally */
+    border-radius: 8px;
+}
+
+.image-content img {
+    object-fit: cover; /* Ensure image covers its container and maintains aspect ratio */
+    max-height: 300px;
+    border-radius: 8px;
+    box-shadow: 0px 2px rgba(0, 0, 0, 0.2);
+}
+
+.text-content {
+    background-color: #F9F9F9;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    flex: 1; /* Ensure container expands with the text */
+}
+#epsilon-3-prices h1 {
+    color: rgb(202, 24, 24); /* Some highlight coloring for our pricing section */
+}
+
+
+/* Features/Options Section Styling */
+.feature-section {
+    padding: 20px;
+}
+
+.feature-section img {
+    width: 100%; /* Image should take the full width of its container */
+}
+
+.image-text-block {
+    display: flex;
+    flex-direction: column; /* Stack items in a column */
+    flex: 1 1 30%; 
+    gap: 10px; /* 10px of space between image and text blocks */
+}
+
+
+/* Slide show gallery */
+.slideshow-container {
+    max-width: 60%;
+    margin: auto;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 10px;
+  }
+  
+  
+  /* Slide show dot indicators */
+  .dot-indicator {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+
+  
+/* Contact form styling */
+.form-container {
+    max-width: 95%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* Keep sections within the border */
+}
+
+button {
+    /* Set up left sliding gradient effect on hover */
+    background-image: linear-gradient(to right, #b92525, #2e4e86, #b92525); /* background color for the button */
+    background-size: 300% 100%; /* Make the gradient 3 times wider and the same height as the button */
+    background-position: 100% 0; /* set inital background position all the way to the right*/
+    transition: all 0.5s ease; /* Set slide effect to ease in over specified time */
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    background-color: #9a1f1f;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-position: 0 0;
+}
+
+#message-sent {
+    display: none;
+    text-align: center;
+    padding: 10px;
+    font-weight: 400;
+}

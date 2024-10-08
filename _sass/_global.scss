@@ -1,0 +1,30 @@
+
+/* HTML Styling */
+html {
+    scroll-behavior: smooth; /* Smooth scrolling for section links */
+}
+
+/* Default Body Styling */
+body {
+    font-family: "Work Sans", sans-serif; /* List of default fonts*/
+    color: #333333; /* Default text color */
+    font-size: 1.1em;
+    word-wrap: break-word; /* By default allow long-running words to break to the next line */
+    box-sizing: border-box; /* Include padding and border in an element's total width. */
+    overflow-x: hidden; /* By default, hide any horizontal overflowing sections (no horizontal scroll bars) */
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Default h1 - h6 styling in the main content section */
+.main-custom h1,
+.main-custom h2,
+.main-custom h3,
+.main-custom h4,
+.main-custom h5,
+.main-custom h6 {
+    text-align: center;
+    font-weight: normal;
+    color: #001f3f;
+}
